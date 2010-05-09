@@ -1,0 +1,24 @@
+NimbuslyDB
+
+Introduction
+
+NimbuslyDB provides an easy-to-use access layer over HTML5's local database 
+functionality. It is intended to eventually provide the following features:
+
+* Easy database access layer for HTML5 local database storage
+* Centralized logging and error handling for HTML5 local database storage
+* Simplified database initialization and upgrading using migrations
+* A simple Object/Relational layer for storing and retrieving javascript objects
+* A facility for synchronizing with a remote database
+
+My intent is to make it easy to write apps javascript apps that will run in both
+mobile and web environments, online or offline, and make your personal app data 
+available regardless of how or when you access the app, in as seamless a way 
+as possible. Only then will the full benefits of cloud computing be realized.
+
+Getting Started
+
+You will need a browser that supports HTML5 Local storage. I've been using Chrome.
+Chrome requires that the HTML5 code to be downloaded from a server, so I have
+Apache configured to access my development directory. There are unit tests in the 
+test directory, using QUnit.
