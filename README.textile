@@ -1,6 +1,6 @@
-NimbuslyDB
+h1. NimbuslyDB
 
-Introduction
+h2. Introduction
 
 NimbuslyDB provides an easy-to-use access layer over HTML5's local database 
 functionality. It is intended to eventually provide the following features:
@@ -16,9 +16,26 @@ mobile and web environments, online or offline, and make your personal app data
 available regardless of how or when you access the app, in as seamless a way 
 as possible. Only then will the full benefits of cloud computing be realized.
 
-Getting Started
+h2. Getting Started
 
 You will need a browser that supports HTML5 Local storage. I've been using Chrome.
 Chrome requires that the HTML5 code to be downloaded from a server, so I have
 Apache configured to access my development directory. There are unit tests in the 
 test directory, using QUnit.
+
+h2. License
+
+NimbuslyDB Copywrite 2010 Andrew Semprebon
+
+NimbuslyDB is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+NimbuslyDB is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with NimbuslyDB.  If not, see <http://www.gnu.org/licenses/>.
